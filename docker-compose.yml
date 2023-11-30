@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  django:
+    container_name: django-container
+    build:
+      context: ./connectedhealth
+    command: >
+      sh -c "python manage.py migrate &&
+             python3 manage.py makemigrations &&
+             ./startserver"
+    ports:
+      - 8000:8000
+    volumes:
+      - ./connectedhealth:/app
+    tty: true
