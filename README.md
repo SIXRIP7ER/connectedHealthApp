@@ -12,6 +12,7 @@ git submodule update --init
 # Docker Command to start
 
 ```
+./getip
 docker-compose up
 ```
 
