@@ -9,9 +9,20 @@ services:
       sh -c "python manage.py migrate &&
              python3 manage.py makemigrations &&
              cat ip.txt &&
-             python3 manage.py runserver"
+             ./startserver"
     ports:
       - 8000:8000
     volumes:
       - ./connectedhealth:/app
+    stdin_open: true
+    tty: true
+  react-native:
+    container_name: react-native-container
+    build:
+      context: ./ExpoCAMwithTensor
+    ports:
+      - 19000:19000
+    volumes:
+      - ./ExpoCAMwithTensor:/app
+    stdin_open: true
     tty: true
