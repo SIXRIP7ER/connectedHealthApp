@@ -8,7 +8,6 @@ services:
     command: >
       sh -c "python manage.py migrate &&
              python3 manage.py makemigrations &&
-             cat ip.txt &&
              ./startserver"
     ports:
       - 8000:8000
