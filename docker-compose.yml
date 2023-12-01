@@ -19,9 +19,12 @@ services:
     container_name: react-native-container
     build:
       context: ./ExpoCAMwithTensor
+    # command: >
+    #   sh -c "npx expo start"
     ports:
       - 19000:19000
     volumes:
       - ./ExpoCAMwithTensor:/app
+      - /app/node_modules
     stdin_open: true
     tty: true
