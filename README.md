@@ -6,6 +6,7 @@ First clone then retrieve submodules
 
 ```
 git clone https://github.com/SIXRIP7ER/connectedHealthApp.git
+cd connectedHealthApp/
 git submodule update --init
 ```
 
