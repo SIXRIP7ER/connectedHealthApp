@@ -24,7 +24,7 @@ git submodule update --init
 docker-compose up
 ```
 
-3. stop docker:
+Stop docker:
 
 ```
 docker-compose down -v --rmi 'all'
