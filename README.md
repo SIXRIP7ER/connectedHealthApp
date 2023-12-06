@@ -24,6 +24,12 @@ git submodule update --init
 docker-compose up
 ```
 
+3. stop docker:
+
+```
+docker-compose down -v --rmi 'all'
+```
+
 # Inside Expo App : Patient
 
 1. Download Expo App on smartphone
