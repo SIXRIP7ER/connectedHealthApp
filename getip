@@ -2,8 +2,10 @@
 OS=$(uname)
 if [ "$OS" = "Linux" ]; then
     ip=$(hostname -I | xargs)
+    ./addknownhost.py "$ip"
     echo '\n':::::   Connection Code: $ip  :::::'\n'
 elif [ "$OS" = "Darwin" ]; then
     ip=$(ipconfig getifaddr en0)
+    ./addknownhost.py "$ip"
     echo '\n':::::   Connection Code = $ip   :::::'\n'
 fi
