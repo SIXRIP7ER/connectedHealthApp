@@ -11,6 +11,14 @@ git clone https://github.com/realRickyNguyen/ExpoCAMwithTensor.git
 git clone https://github.com/nick-maiden/connectedhealth.git
 ```
 
+## Front-end repository
+If you wish to run the front-end manually without docker, access and follow instructions in the front-end repository
+[here](https://github.com/realRickyNguyen/ExpoCAMwithTensor).
+
+## Back-end repostory
+If you wish to run the back-end manually without docker, access and follow instructions in the back-end repository
+[here](https://github.com/nick-maiden/connectedhealth).
+
 # Docker Command to start
 
 1. get ConnectionCode (local IP address):
@@ -34,13 +42,13 @@ docker-compose down -v --rmi 'all'
 # Inside Expo App : Patient
 
 1. Download Expo App on smartphone
-2. Follow link on browser:
+2. Follow link on browser: (Connection code is your local IP address not docker IP address)
 
 ```
 exp://ConnectionCode:19000
 ```
 
-3. Enter for connection code inside app.
+3. Enter connection code (local IP-address) and back-end port inside app.
 
 ```
 ConnectionCode:8000
