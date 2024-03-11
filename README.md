@@ -11,15 +11,16 @@ git clone https://github.com/realRickyNguyen/ExpoCAMwithTensor.git
 git clone https://github.com/nick-maiden/connectedhealth.git
 ```
 
-## Front-end repository
-If you wish to run the front-end manually without docker, access and follow instructions in the front-end repository
-[here](https://github.com/realRickyNguyen/ExpoCAMwithTensor).
+## Running without Docker
+1. If you wish to run the front-end manually without docker, access and follow instructions in the front-end repository
+[Front-End](https://github.com/realRickyNguyen/ExpoCAMwithTensor).
 
-## Back-end repostory
 If you wish to run the back-end manually without docker, access and follow instructions in the back-end repository
-[here](https://github.com/nick-maiden/connectedhealth).
+[Back-End](https://github.com/nick-maiden/connectedhealth).
 
-# Docker Command to start
+Otherwise follow instructions below to run using docker.
+
+# Running using Docker Method
 
 1. get ConnectionCode (local IP address):
 
