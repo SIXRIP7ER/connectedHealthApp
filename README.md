@@ -2,7 +2,7 @@
 
 # Pulling from github
 
-First clone then retrieve submodules
+First clone then retrieve front-end and back-end
 
 ```
 git clone https://github.com/SIXRIP7ER/connectedHealthApp.git
