@@ -1,5 +1,3 @@
-# README.md
-
 # Pulling from github
 
 First clone then retrieve front-end and back-end
