@@ -1,6 +1,0 @@
-[submodule "connectedhealth"]
-	path = connectedhealth
-	url = https://github.com/nick-maiden/connectedhealth.git
-[submodule "ExpoCAMwithTensor"]
-	path = ExpoCAMwithTensor
-	url = https://github.com/realRickyNguyen/ExpoCAMwithTensor.git

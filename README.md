@@ -7,12 +7,13 @@ First clone then retrieve submodules
 ```
 git clone https://github.com/SIXRIP7ER/connectedHealthApp.git
 cd connectedHealthApp/
-git submodule update --init
+git clone https://github.com/realRickyNguyen/ExpoCAMwithTensor.git
+git clone https://github.com/nick-maiden/connectedhealth.git
 ```
 
 # Docker Command to start
 
-1. get ConnectionCode:
+1. get ConnectionCode (local IP address):
 
 ```
 ./getip
@@ -24,7 +25,7 @@ git submodule update --init
 docker-compose up
 ```
 
-Stop docker:
+delete old docker build after making changes:
 
 ```
 docker-compose down -v --rmi 'all'
@@ -33,13 +34,13 @@ docker-compose down -v --rmi 'all'
 # Inside Expo App : Patient
 
 1. Download Expo App on smartphone
-2. Follow link:
+2. Follow link on browser:
 
 ```
 exp://ConnectionCode:19000
 ```
 
-3. Enter for connection code in app.
+3. Enter for connection code inside app.
 
 ```
 ConnectionCode:8000
