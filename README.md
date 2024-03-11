@@ -15,7 +15,7 @@ git clone https://github.com/nick-maiden/connectedhealth.git
 1. If you wish to run the front-end manually without docker, access and follow instructions in the front-end repository
 [Front-End](https://github.com/realRickyNguyen/ExpoCAMwithTensor).
 
-If you wish to run the back-end manually without docker, access and follow instructions in the back-end repository
+2. If you wish to run the back-end manually without docker, access and follow instructions in the back-end repository
 [Back-End](https://github.com/nick-maiden/connectedhealth).
 
 Otherwise follow instructions below to run using docker.
